@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK_PAPER_SCISSORS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    
+<header>
+    <h1>Rock Paper Scissors</h1>
+</header>     
+
+    <main>
+        <div class="choices">
+            <div class="choice" id="rock">
+                <div class="img-container">
+                    <img src="rock.png" alt="rock">
+                </div>
+            </div>
+            <div class="choice" id="paper">
+                <div class="img-container">
+                    <img src="paper.png" alt="paper">
+                </div>
+            </div>
+            <div class="choice" id="scissors">
+                <div class="img-container">
+                <img src="scissors.png" alt="scissors">
+                </div>
+            </div>
+        </div>
+
+        <!-- Count score-->
+         <div class="score-container">
+            <div class="user ">
+                <p id="user-count">0</p>
+                <p class="player">You</p>
+            </div>
+            <div class="computer">
+                <p id="comp-count">0</p>
+                <p class="player">Comp</p>
+            </div>
+
+         </div>
+
+         <div class="result-btn">
+            <p id="result">Play Your Move</p>
+         </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
